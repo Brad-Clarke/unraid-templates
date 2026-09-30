@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <CommunityApplications>
-  <Profile>Unraid plugins by Bradley Clarke. Disk Forecast tracks how fast the array, disks, pools and shares fill up and projects when each will run out of space, so drive purchases can be planned ahead. Support for each plugin is in its thread on the Unraid forums.</Profile>
+  <Profile>Unraid plugins by Bradley Clarke. Disk Forecast tracks how fast the array, disks, pools and shares fill up and projects when each will run out of space, so drive purchases can be planned ahead. Support for each plugin is through its GitHub issues.</Profile>
   <Icon>https://raw.githubusercontent.com/Brad-Clarke/unraid-templates/main/icon.svg</Icon>
   <WebPage>https://github.com/Brad-Clarke</WebPage>
-  <Forum>@SUPPORT_URL@</Forum>
+  <Forum>https://github.com/Brad-Clarke/UnraidDiskForecast/issues</Forum>
 </CommunityApplications>

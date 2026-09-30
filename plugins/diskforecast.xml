@@ -6,7 +6,7 @@
   <Overview>Forecasts when your array, disks, pools or shares will run out of space. Disk Forecast takes a reading of free space on a schedule you choose, fits a trend to it, and shows when each target is likely to fill, with a likely range, the expected growth, a graph and a projected-usage table. A "what if I add a drive" card shows how much longer a new drive would last, a dashboard tile shows every target at a glance, and Unraid notifications warn you when something is due to fill within your chosen window. It only reads free-space figures the filesystem already keeps, so no folders are scanned and no disks are woken.</Overview>
   <Category>Tools:Utilities</Category>
   <Project>https://github.com/Brad-Clarke/UnraidDiskForecast</Project>
-  <Support>@SUPPORT_URL@</Support>
+  <Support>https://github.com/Brad-Clarke/UnraidDiskForecast/issues</Support>
   <ReadMe>https://raw.githubusercontent.com/Brad-Clarke/UnraidDiskForecast/main/README.md</ReadMe>
   <Icon>https://raw.githubusercontent.com/Brad-Clarke/UnraidDiskForecast/main/plugin/diskforecast.png</Icon>
   <License>GPLv2</License>
