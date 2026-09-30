@@ -1,32 +1,13 @@
-# Community Apps Starter Template
+# Unraid templates
 
-Use this repository as a GitHub template when you want a clean starting point for a new Community Apps submission repository.
+Community Apps listings for Bradley Clarke's Unraid plugins.
 
-## Quick Start
+| Plugin | Listing | Source |
+|---|---|---|
+| Disk Forecast | [plugins/diskforecast.xml](plugins/diskforecast.xml) | [Brad-Clarke/UnraidDiskForecast](https://github.com/Brad-Clarke/UnraidDiskForecast) |
 
-1. Click **Use this template** on GitHub and create your own repository.
-2. Replace the placeholder values in `ca_profile.xml`, `templates/example-app.xml`, and `plugins/example-plugin.xml`.
-3. Replace `icon.svg` with your own repository icon, or update `ca_profile.xml` to point at a hosted icon you control.
-4. Keep one XML file per Docker app under `templates/`.
-5. Keep one XML wrapper per plugin under `plugins/`.
-6. Delete the example files you do not need.
-7. Commit and push your repository.
-8. Run **Validate** and **Scan** in the Community Apps submit flow: `/submit`.
+Each listing points at its plugin's `.plg` (`releases/latest/download/<name>.plg`), which
+carries the version and changelog, so listings do not change per release. The listing's
+`<PluginURL>` must match the `.plg`'s `pluginURL` character for character.
 
-## Starter Files
-
-- `README.md`: onboarding notes for whoever maintains the repository.
-- `LICENSE`: starter MIT license text. Replace the placeholder copyright line.
-- `.gitignore`: keeps common OS junk out of the repo.
-- `icon.svg`: starter repository icon referenced by `ca_profile.xml`.
-- `ca_profile.xml`: repository overview and support metadata shown in Community Apps.
-- `templates/example-app.xml`: starter Docker application template.
-- `plugins/example-plugin.xml`: starter plugin wrapper.
-
-## Submission Notes
-
-- Keep `ca_profile.xml` in the repository root.
-- Every Docker app entry needs a `<Repository>` tag.
-- Every plugin entry needs a `<PluginURL>` tag.
-- Keep each template's `TemplateURL` pointed at the raw GitHub URL for that exact XML file.
-- Use an OSI-approved license before submitting.
+Format: https://ca.unraid.net/submit/help
